@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3051EBA12F89B6F700BE8C08 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3051EBA02F89B6EF00BE8C08 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3051EB5B2F85DD7A00BE8C08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		3051EB4D2F85DD7800BE8C08 /* RAG-Chatbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAG-Chatbot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3051EB5A2F85DD7A00BE8C08 /* RAG-ChatbotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAG-ChatbotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3051EB642F85DD7A00BE8C08 /* RAG-ChatbotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAG-ChatbotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3051EBA02F89B6EF00BE8C08 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +93,7 @@
 		3051EB442F85DD7800BE8C08 = {
 			isa = PBXGroup;
 			children = (
+				3051EBA02F89B6EF00BE8C08 /* README.md */,
 				3051EB4F2F85DD7800BE8C08 /* RAG-Chatbot */,
 				3051EB5D2F85DD7A00BE8C08 /* RAG-ChatbotTests */,
 				3051EB672F85DD7A00BE8C08 /* RAG-ChatbotUITests */,
@@ -249,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3051EBA12F89B6F700BE8C08 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
